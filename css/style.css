@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+}
+img {
+    width: 300px; <!--ширина картинки-->
+    margin: 10px; <!--внешний отступ от блока-->
+    padding: 10px; <!--внутренний отступ от блока-->
+}
+.center {
+    text-align: center; <!--отцентровка-->
+}
+table, tr, td, th {
+    border: 1px solid black;
+}
