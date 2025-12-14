@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <!--    <link href="css/bootstrap.min.css" rel="stylesheet"/>-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<style>
+    .sidebar {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .card_param {
+      width: 20rem;
+      margin-top: 20px;
+      margin-left: 50px
+    }
+</style>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 sidebar">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="https://clc.li/wXdUv">
+                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="20" height="20"
+                             class="d-inline-block">
+                        Меню
+                    </a>
+                </div>
+            </nav>
+            <hr class="border-2"/>
+            <nav class="nav flex-column">
+                <a class="nav-link active" aria-current="page" href="main_page.html">Главная</a>
+                <a class="nav-link" href="category1_page.html">Категории</a>
+                <a class="nav-link" href="catalog_page.html">Каталог</a>
+                <a class="nav-link" href="contact_page.html">Контакты</a>
+            </nav>
+            <div class="dropdown mt-auto">
+                <a class="btn btn-secondary dropdown-toggle w-100" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Пользователь
+                </a>
+                <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="https://clc.li/zpAfI">Профиль</a></li>
+                    <li><a class="dropdown-item" href="https://clc.li/zpAfI">Нажми сюда</a></li>
+                </ul>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+                </script>
+            </div>
+        </div>
+        <div class="col-10">
+            <h1 class="text-center mt-5">Главная</h1>
+            <h6 class="text-center mt-2 text-black-50 bg-white">
+                Вы находитесь на сайте, предназначенном для продажи товаров.
+            </h6>
+            <div class="row row-cols-1 row-cols-md-3 g-6 mt-5">
+                <div class="col text-center">
+                    <div class="card mt-3">
+                        <h5 class="card-header">Товар 1</h5>
+                        <div class="card-body">
+                            <h4 class="card-title">100$</h4>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card mt-3">
+                        <h5 class="card-header">Товар 2</h5>
+                        <div class="card-body">
+                            <h4 class="card-title">100$</h4>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card mt-3">
+                        <h5 class="card-header">Товар 3</h5>
+                        <div class="card-body">
+                            <h4 class="card-title">100$</h4>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <button type="button" class="btn btn-outline-primary w-100">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
